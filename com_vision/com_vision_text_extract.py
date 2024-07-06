@@ -3,7 +3,7 @@ import pytesseract
 import os
 
 # Enter the fil name here
-filename = "Screenshot 2024-07-04 132038.png"
+filename = input("Enter the file names(Contains file types):")
 image_path = f'C:\\Users\\ander\\Pictures\\Screenshots\\{filename}'
 
 # Load the image from the provided path
