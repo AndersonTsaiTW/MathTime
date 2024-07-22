@@ -3,8 +3,8 @@ import pytesseract
 import os
 
 # Enter the fil name here
-filename = input("Enter the file names(Contains file types):")
-image_path = f'C:\\Users\\ander\\Pictures\\Screenshots\\{filename}'
+filename = input("請輸入檔案名稱（包含副檔名）: ")
+image_path = os.path.join(r'C:\Users\ander\OneDrive\Pictures\螢幕擷取畫面', filename)
 
 # Load the image from the provided path
 image = Image.open(image_path)
